@@ -1,0 +1,216 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contenedor-redes-sociales {
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor-redes-sociales a {
+    position: relative;
+    display: inline-block;
+    height: 36px;
+    width: 160px;
+    line-height: 35px;
+    padding: 0;
+    color: #fff;
+    border-radius: 50px;
+    background: #fff;
+    margin: 5px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+.contenedor-redes-sociales a:hover span.circulo {
+    left: 100%;
+    margin-left: -35px;
+    background: #fff;
+}
+
+.contenedor-redes-sociales a:hover span.titulo {
+    opacity: 0;
+}
+
+.contenedor-redes-sociales a:hover span.titulo-hover {
+    opacity: 1;
+    color: #fff;
+}
+
+.contenedor-redes-sociales a span.titulo-hover {
+    opacity: 0;
+}
+
+.contenedor-redes-sociales a span.circulo {
+    display: block;
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 3px;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+    border-radius: 50%;
+}
+
+.contenedor-redes-sociales a span.circulo i {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.contenedor-redes-sociales a span.titulo, .contenedor-redes-sociales a span.titulo-hover {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.contenedor-redes-sociales a span.titulo {
+    right: 15px
+}
+
+.contenedor-redes-sociales a span.titulo-hover {
+    left: 15px
+}
+
+
+/*----------Colores de los botones----------*/
+
+.contenedor-redes-sociales .facebook {
+    border: 2px solid #3b5998;
+}
+
+.contenedor-redes-sociales .facebook:hover, .contenedor-redes-sociales .facebook span.circulo {
+    background: #3b5998;
+}
+
+.contenedor-redes-sociales .facebook:hover span.circulo, .contenedor-redes-sociales .facebook span.titulo {
+    color: #3b5998;
+}
+
+.contenedor-redes-sociales .twitter {
+    border: 2px solid #1da1f2;
+}
+
+.contenedor-redes-sociales .twitter:hover, .contenedor-redes-sociales .twitter span.circulo {
+    background: #1da1f2;
+}
+
+.contenedor-redes-sociales .twitter:hover span.circulo, .contenedor-redes-sociales .twitter span.titulo {
+    color: #1da1f2;
+}
+
+.contenedor-redes-sociales .gplus {
+    border: 2px solid #25D366;
+}
+
+.contenedor-redes-sociales .gplus:hover, .contenedor-redes-sociales .gplus span.circulo {
+    background: #25D366;
+}
+
+.contenedor-redes-sociales .gplus:hover span.circulo, .contenedor-redes-sociales .gplus span.titulo {
+    color: #25D366;
+}
+
+
+.contenedor-redes-sociales .linke {
+    border: 2px solid #0077B5;
+}
+
+.contenedor-redes-sociales .linke:hover, .contenedor-redes-sociales .linke span.circulo {
+    background: #0077B5;
+}
+
+.contenedor-redes-sociales .linke:hover span.circulo, .contenedor-redes-sociales .linke span.titulo {
+    color: #0077B5;
+}
+
+
+.contenedor-redes-sociales .git {
+    border: 2px solid #171515;
+}
+
+.contenedor-redes-sociales .git:hover, .contenedor-redes-sociales .git span.circulo {
+    background: #171515;
+}
+
+.contenedor-redes-sociales .git:hover span.circulo, .contenedor-redes-sociales .git span.titulo {
+    color: #171515;
+}
+
+
+.contenedor-redes-sociales .web {
+    border: 2px solid #b50000;
+}
+
+.contenedor-redes-sociales .web:hover, .contenedor-redes-sociales .web span.circulo {
+    background: #b50000;
+}
+
+.contenedor-redes-sociales .web:hover span.circulo, .contenedor-redes-sociales .web span.titulo {
+    color: #b50000;
+}
+
+
+.contenedor-redes-sociales .beh {
+    border: 2px solid #053EFF;
+}
+
+.contenedor-redes-sociales .beh:hover, .contenedor-redes-sociales .beh span.circulo {
+    background: #053EFF;
+}
+
+.contenedor-redes-sociales .beh:hover span.circulo, .contenedor-redes-sociales .beh span.titulo {
+    color: #053EFF;
+}
+
+.contenedor-redes-sociales .five {
+    border: 2px solid #1DBF73;
+}
+
+.contenedor-redes-sociales .five:hover, .contenedor-redes-sociales .five span.circulo {
+    background: #1DBF73;
+}
+
+.contenedor-redes-sociales .five:hover span.circulo, .contenedor-redes-sociales .five span.titulo {
+    color: #1DBF73;
+}
+
+
+.contenedor-redes-sociales .insta {
+    border: 2px solid #833AB4;
+}
+
+.contenedor-redes-sociales .insta:hover, .contenedor-redes-sociales .insta span.circulo {
+    background: #833AB4;
+}
+
+.contenedor-redes-sociales .insta:hover span.circulo, .contenedor-redes-sociales .insta span.titulo {
+    color: #833AB4;
+}
+
+
+.contenedor-redes-sociales .you {
+    border: 2px solid #FF0000;
+}
+
+.contenedor-redes-sociales .you:hover, .contenedor-redes-sociales .you span.circulo {
+    background: #FF0000;
+}
+
+.contenedor-redes-sociales .you:hover span.circulo, .contenedor-redes-sociales .you span.titulo {
+    color: #FF0000;
+}
